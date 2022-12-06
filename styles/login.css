@@ -1,0 +1,69 @@
+:root{
+    --primary-color:rgb(162, 0, 255);
+    --second-color:dimgrey;
+}
+
+*{
+    font-family:'Roboto', sans-serif ;
+}
+
+
+.container{
+    text-align: center;
+}
+.Login{
+    color:var(--primary-color);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.p-login{
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.inputs{
+    display: inline-grid;
+    justify-items: start;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.inputs label {
+    color: var(--second-color);
+    font-size: 11px;
+    margin: 5px;
+}
+
+.inputs-name,
+.inputs-password{
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    border: 0px solid;
+    background-color:  rgb(224, 220, 220);
+    padding-left: 15px;
+}
+.button{
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    border: 0px;
+    cursor: pointer;
+
+}
+.container-a{
+    display: inline-grid;
+    margin-top:40px ;
+}
+.container-a a{
+    text-decoration: none;
+    color: var(--second-color);
+    font-size: 15px;
+}
+

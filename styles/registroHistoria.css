@@ -1,0 +1,225 @@
+:root{
+    --primary-color:rgb(162, 0, 255);
+    --secondary-color:rgb(253, 228, 0);
+    --tertiary-color:rgb(255, 255, 255);
+    --quaternary-color:rgb(224, 220, 220);
+    --quinary-color:#000000;
+    --button-color1:#a0f06b;
+}
+*{
+
+    
+    font-family:'Roboto', sans-serif ;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 50px;
+    background-color:var(--primary-color);
+    color: var(--tertiary-color);
+    margin: 0;
+}
+.report{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.report:hover,
+.profile:hover{
+    color: var(--secondary-color);
+}
+.profile{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.container-sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.section-left{
+    width: 20%;
+    background-color: var(--primary-color);
+}
+.container-info{
+    text-align: center;
+}
+
+.container-info img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.container-info p{
+    color: var(--tertiary-color);
+}
+
+.section-li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin-top: 90px;
+}
+
+.section-li li{
+    border: 1px solid var(--tertiary-color);
+    background: var(--tertiary-color);
+    margin: 20px 5px;
+    border-radius: 10px;
+    width: 137px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--quinary-color);
+}
+
+.section-li li:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.section-rithg{
+    width: 77%;
+    padding: 19px 10px 0px 20px;
+}
+
+.home{
+    margin-bottom: 10px;
+}
+
+.home a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.home a:hover{
+    
+    color: var(--secondary-color);
+}
+.container-rhc{
+    background-color: var(--quaternary-color);
+}
+.tittle{
+    text-align: center;
+}
+.tittle p{
+    font-size: large ;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.container-browser{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.container-browser label{
+    margin-right: 10px;
+}
+
+.container-browser input{
+    border-radius: 10px;
+    height: 20px;
+    width: 250px;
+    border: 0px solid;
+    background-color: var(--tertiary-color);
+    padding-left: 10px;
+    font-size: medium;
+}
+
+.container-browser button {
+    margin-left: 10px;
+    background-color: var(--primary-color);
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 22px;
+}
+
+.container-data{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 20px;
+    padding-top: 10px;
+    border-top: 1px solid var(--primary-color);
+}
+.container-data li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.container-medic{
+    margin: 20px;
+    border-top: 1px solid var(--primary-color);
+}
+
+.text-area{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+    
+}
+.text-area textarea{
+    width: 450px;
+    height: 135px;
+    border-radius: 8px;
+    margin-left: 80px;
+}
+
+.container-sesions{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.container-sesions input{
+    margin-left: 35px;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.container-buttons button{
+    height: 30px;
+    margin: 20px 0 20px 0;
+    width: 100px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.container-buttons button:hover{
+    cursor: pointer;
+}
+
+.button-anex{
+    background-color: #a0f06b;
+    color: var(--tertiary-color);
+}
+
+.button-evo{
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+.button-save{
+    background-color: var(--primary-color);
+    color: var(--tertiary-colora);
+}
